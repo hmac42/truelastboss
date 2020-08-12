@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background-color: #412AB6;
+    
+}
+
+#home{
+    background: linear-gradient(to left, #3333cc, #ffcc00 100%);
+    min-height: 400px;
+}
+
+.bar-play{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 3px 10px;
+
+}
+
+.text-home{
+    line-height: 75px;
+}
+
+.mobile{
+    display: none;
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    {
+        display: block;
+    }
+
+    
+}
