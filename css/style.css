@@ -5,6 +5,11 @@
     list-style-type: none;
 }
 
+
+  /***** header area start *****/
+
+
+
 header{
     background-color: #412AB6;
     
@@ -15,28 +20,267 @@ header{
     min-height: 400px;
 }
 
-.bar-play{
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 3px 10px;
-
-}
-
-.text-home{
+.text-home
+{
     line-height: 75px;
+    
 }
 
-.mobile{
+.text-home-1
+{
+   font-size: 40px;
+   line-height: 50px;
+}
+
+.text-home-2
+{
+   font-size: 30px;
+}
+
+
+
+
+
+.bar-play
+{
+
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.mobile
+{
     display: none;
 
 }
 
 
 
-@media only screen and (min-width: 768px){
+
+
+
+
+                        /***** feature area start *****/
+
+
+
+.title-feature
+{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.title-feature h2
+{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.title-feature p
+{
+    
+    font-size: 20px;
+}
+/***** Première div  Text align end *****/
+
+
+.display--first
+{
+    display: flex;
+    width: 100%;
+    text-align: end;
+    flex-direction: row-reverse;
+    padding: 25px;
+ 
+}
+
+.display--first h2
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.display--first p
+{
+    font-size: 14px;
+    white-space: pre-wrap;
+    
+}
+
+.display--first-1
+{
+    margin: 0px 0px 0px 20px; 
+}
+
+.display--first-2
+{
+
+   line-height: 40px;
+   
+
+}
+
+.display--first img
+{
+   width: 60px;
+}
+
+
+/***** Image Iphone start *****/
+
+
+
+
+.iphone
+{
+    text-align: center;
+}
+
+.iphone-img
+{
+    
+    
+    max-width: 100%;
+    height: auto;
+}
+
+
+/***** Deuxième div Text align start  *****/
+
+
+.display--second
+{
+    display: flex;
+    width: 100%;
+    text-align: start;
+    flex-direction: row;
+    padding: 25px;  
+    
+}
+
+.display--second h2
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.display--second p
+{
+    font-size: 14px;
+    
+}
+
+
+.display--second-1
+{
+    padding: 0px 20px 0px 0; 
+}
+
+.display--second-2
+{
+
+   line-height: 40px;
+  
+
+}
+
+.display--second img
+{
+ width: 60px;
+  
+}
+
+
+                    /***** achivement area start  *****/
+
+
+.achivement
+{
+    background-image: url(../hyruleapp/assets/img/bg/ach-bg-img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+  background-size: cover;
+    padding: 0;
+   
+    
+    
+    
+
+}
+
+.background
+{
+    background-color: #5000ff;
+    opacity: 0.8;
+  
+
+}
+
+
+.text-achivement 
+{
+    text-align: center;
+    color: white;
+    
+    padding: 20px 0px;
+}
+.text-achivement span, .text-achivement p
+{
+    font-size: 40px;
+}
+
+
+.text-grp-achivement
+{
+    padding: 40px 0px;
+}
+.text-grp-achivement i
+{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+                        /***** footer  *****/
+
+
+
+
+
+
+footer p
+{
+    background-color: #5000ff;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px)
+{
     {
         display: block;
     }
 
-    
 }
