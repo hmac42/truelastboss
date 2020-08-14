@@ -1,20 +1,72 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
 }
 
-
-  /***** header area start *****/
-
-
-
-header{
-    background-color: #412AB6;
-    
+body
+{
+    font-family: 'Poppins', sans-serif;
 }
 
+
+                    /***** header area start *****/
+
+
+
+
+/***** Header part-1 *****/
+
+
+.header-background-color
+{
+    background-color: #5000ff;
+}
+
+.img-header
+{
+    max-width: 150%;
+    height: auto;
+    vertical-align: center;
+}
+
+.nav-button
+{
+    float: right;
+    margin: 15px 0px;
+    border: none;
+    color: white;
+   
+} 
+.nav-button:focus
+{
+    
+    outline: none;
+}
+
+
+/***** Header part-2 *****/
+
+
+#navbarNav ul li a
+{   
+   
+    color: white;
+    padding: 5px 20px;
+    line-height: 30px;
+}
+
+.bg-barnav
+{
+    background-color: #2e0092;
+    width: 100%;
+    height: 50% ;
+
+}
+
+                    /***** slider area start *****/
 #home{
     background: linear-gradient(to left, #3333cc, #ffcc00 100%);
     min-height: 400px;
@@ -38,24 +90,14 @@ header{
 }
 
 
-
-
-
 .bar-play
 {
 
     padding: 3px 10px;
     border: 1px solid white;
     border-radius: 25px;
-    font-size: 30px;
+    font-size: px;
 }
-
-
-
-
-
-
-
 
 .mobile
 {
@@ -64,15 +106,9 @@ header{
 }
 
 
-
-
-
-
-
                         /***** feature area start *****/
 
-
-
+                        
 .title-feature
 {
     text-align: center;
@@ -90,6 +126,7 @@ header{
     
     font-size: 20px;
 }
+
 /***** Première div  Text align end *****/
 
 
@@ -278,9 +315,11 @@ footer p
 
 
 @media only screen and (min-width: 768px)
+
 {
-    {
-        display: block;
-    }
+    .mobile
+        {
+            display: block;
+        }
 
 }
