@@ -184,7 +184,8 @@ body
 .iphone-img
 {
     
-    
+    display: block;
+
     max-width: 100%;
     height: auto;
 }
@@ -314,12 +315,62 @@ footer p
 
 
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px )
 
 {
     .mobile
         {
             display: block;
         }
+
+}
+
+@media only screen and (min-width: 768px ) 
+
+{
+   /* .iphone-img
+    {
+        display: none;
+    }
+    */
+
+}
+
+
+
+@media only screen and (min-width: 992px)
+{
+    /***** header area start  Part-2 *****/
+  
+
+    .bg-barnav
+    {
+        background-color: transparent;
+        width: 50%;
+
+    }
+    .iphone-img
+    {
+        display: block;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+    /***** header area start  Part-2 *****/
+    .bg-barnav
+    {
+        background-color: none;
+    }
+
+.bg-barnav
+{
+    background-color: transparent;
+    width: 30%;
+
+}
 
 }
