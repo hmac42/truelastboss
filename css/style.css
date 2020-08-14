@@ -12,24 +12,246 @@ header{
 
 #home{
     background: linear-gradient(to left, #3333cc, #ffcc00 100%);
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .bar-play{
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 3px 10px;
+     
+    border-radius: 70px;
+    border: 2px solid white;
+    padding: 20px 50px;
+    font-size: 40px;
+    
+    }
 
-}
-
-.text-home{
+.slider-text h2{
+    font-size: 40px;
     line-height: 75px;
+
 }
+
+.slider-text h5{
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 80px;
+}
+
+    
+
+
+/*.bar-play i{
+    position: relative;
+    top:10px;
+    right: 30px;
+    font-size: 75px;
+    
+}*/
+
+
+
+
 
 .mobile{
     display: none;
 
 }
+
+
+                     /* service area start */
+
+/*concernant les images- hugo*/
+.card-columns{
+    display: flex;
+    flex-direction: column;
+    }
+
+
+.card {
+    border: none;
+    position: relative;
+    top: -180px;
+    height: 100%;
+    padding: 120px 0px;
+    margin-top: 40px;
+    }
+
+
+.titrecard{
+    font-size: 2.5rem;
+}
+
+.text-service p{
+    font-size: 1.8rem;
+}
+
+.text-service h2{
+    font-weight: bold;
+}
+
+.text-service img{
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+
+
+/*image mobile2*/
+.mobile2 {
+    display: none;
+    }
+
+
+
+
+
+ /* service area end */
+
+
+
+
+ /* about area start */
+
+
+/*separateur*/
+
+.hr{
+   color:  #412AB6;
+   width: 1px; 
+    }
+
+
+.separateur{
+    position: relative;
+    margin-top: 50px;
+    }
+
+.losange{
+    position: absolute;
+    top: -20px;
+    margin-left: 50%;
+    height: 5px;
+    width: 5px;
+    border-width: 2px 2px 2px 2px;
+    background: #412AB6;
+    border-color: #412AB6;
+    border-style: solid;
+    transform: rotate(45deg);
+    }
+
+.ligne{
+    position: absolute;
+    margin-top: 0rem;
+   margin-left: 35%;
+    border-top: 2px solid;
+    width: 150px;
+   border-color: #412AB6;
+    }
+                        
+
+                        
+
+/*texte qui suit les images*/
+
+.font-weight-bold{
+    font-size: 2.3rem;
+    }
+
+.font-weight-normal{
+    font-size: 1.4rem;
+    margin-top: 80px;
+    }
+
+.font-weight-light{
+    margin-top: 60px;
+    font-size: 1.2rem;
+    width: 100%;
+    }
+
+/* about area end */
+
+
+
+/* testimonial carousel area start */
+.rounded-circle{
+    position: relative;
+    width: 35%;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    }
+
+
+.testimonial{
+    border: 2px solid #412AB6;
+    border-radius: 20px 20px;
+    padding: 100px 10px 20px 10px;
+    }
+
+.testimonial h4{
+    font-size: 2.0rem;
+    padding-bottom: px;
+    font-weight: 600;
+    }
+
+.testimonial p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-align: center;
+    }
+
+.testimonial span{
+    font-size: 1.3rem;
+    
+    }
+a{
+    color: black;
+    } 
+
+ul{
+   position: relative;
+   left: 145px;
+   
+   }
+
+   li{
+       margin-left: 15px;
+   }
+
+   #testimonials h2{
+       font-size: 2.6rem;
+   }
+
+   #testimonials p{
+       font-size: 1.2rem;
+       padding-top: 30px;
+   }
+
+
+
+/* testimonial carousel area end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
